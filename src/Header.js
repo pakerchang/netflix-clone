@@ -21,7 +21,11 @@ function Header() {
 				className="header__logo"
 			/>
 
-			<img src="" alt="" className="header__avatar" />
+			<img
+				src="https://occ-1-3594-3996.1.nflxso.net/dnm/api/v6/0RO1pLmU93-gdXvuxd_iYjzPqkc/AAAABZiSyrRci77umHuATdA0OCHdMx0Bb2mWhVc0ihermsQZehGuoO-ugrnHy8u8EoOh5NoAIDZTs4DzBgQKUJ8_GMvr3y4R.png?r=a41"
+				alt="Netflix Logo"
+				className="header__avatar"
+			/>
 		</div>
 	);
 }
