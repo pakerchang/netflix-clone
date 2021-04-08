@@ -51,6 +51,7 @@ function MovieRow({ title, fetchUrl, isLargeRow }) {
 		async function fetchData() {
 			const req = await axios.get(fetchUrl);
 			setMovies(req.data.results);
+			console.log(req);
 			return req;
 		}
 		fetchData();
@@ -68,9 +69,7 @@ function MovieRow({ title, fetchUrl, isLargeRow }) {
 							isLargeRow && "poster__largeRow"
 						}`}
 						src={`${base_url}${
-							isLargeRow
-								? movie.poster_path
-								: movie.backdrop_path
+							movie.poster_path
 						}`}
 						alt={movie.name}
 					/>
