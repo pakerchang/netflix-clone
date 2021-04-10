@@ -40,11 +40,12 @@ function MovieRow({ title, fetchUrl, isLargeRow }) {
 					setTrailerUrl(urlParams.get("v"));
 				})
 				.catch((error) =>
-					console.log("error meassage : " + error)
+					console.log("error message : " + error)
 				);
 		}
 	};
 
+	// scroll button click 
 	const scroll = (scrollOffset) => {
 		rowRef.current.scrollLeft += scrollOffset;
 	};
