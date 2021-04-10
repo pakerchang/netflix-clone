@@ -1,8 +1,8 @@
 .movieRow {
 	position: relative;
 	color: white;
-	margin-left: 20px;
-	margin-bottom: 5px;
+	margin: 0px 20px 5px 20px;
+	/* margin-bottom: 5px; */
 }
 
 .movieRow:nth-of-type(1) {
@@ -52,7 +52,7 @@
 	background-color: rgba(37, 37, 37, 0.8);
 }
 .scrollArrow__back {
-	left: 0;
+	left: 1;
 }
 .scrollArrow__forward {
 	right: 0;
