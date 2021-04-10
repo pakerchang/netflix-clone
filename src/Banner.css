@@ -1,12 +1,12 @@
 .banner {
 	color: white;
 	object-fit: contain;
-	height: 448px;
+	height: 548px;
 }
 
 .banner__contents {
 	margin-left: 60px;
-	padding-top: 140px;
+	padding-top: 240px;
 	height: 190px;
 }
 
@@ -49,6 +49,6 @@
 		180deg,
 		transparent,
 		rgba(37, 37, 37, 0.61),
-        #111
+		#111
 	);
 }
