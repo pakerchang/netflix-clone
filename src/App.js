@@ -5,15 +5,15 @@ import MovieRow from "./MovieRow";
 import requests from "./requests";
 import Login from "./Login";
 import {
-	BrowserRouter as Router,
+	HashRouter as Router,
 	Switch,
 	Route,
 } from "react-router-dom";
 
 function App() {
 	return (
-		<div className="app">
-			<Router>
+		<Router>
+			<div className="app">
 				<Switch>
 					<Route path="/netflix-clone/login">
 						<Login />
@@ -57,8 +57,8 @@ function App() {
 						/>
 					</Route>
 				</Switch>
-			</Router>
-		</div>
+			</div>
+		</Router>
 	);
 }
 
