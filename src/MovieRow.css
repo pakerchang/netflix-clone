@@ -51,8 +51,9 @@
 	padding: 40px 3px;
 	background-color: rgba(37, 37, 37, 0.8);
 }
+
 .scrollArrow__back {
-	left: 1;
+	left: 0;
 }
 .scrollArrow__forward {
 	right: 0;
