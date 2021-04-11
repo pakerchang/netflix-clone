@@ -12,12 +12,13 @@ import {
 
 function App() {
 	return (
-		<Router>
-			<div className="app">
+		<div className="app">
+			<Router>
 				<Switch>
 					<Route path="/login">
 						<Login />
 					</Route>
+
 					<Route path="/">
 						<Header />
 						<Banner />
@@ -56,8 +57,8 @@ function App() {
 						/>
 					</Route>
 				</Switch>
-			</div>
-		</Router>
+			</Router>
+		</div>
 	);
 }
 
