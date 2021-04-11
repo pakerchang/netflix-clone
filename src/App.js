@@ -15,7 +15,7 @@ function App() {
 		<div className="app">
 			<Router>
 				<Switch>
-					<Route path="/login">
+					<Route path="/netflix-clone/login">
 						<Login />
 					</Route>
 
