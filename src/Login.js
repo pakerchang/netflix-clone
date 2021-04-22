@@ -3,8 +3,9 @@ import "./Login.css";
 import GoogleLogin from "react-google-login";
 import FacebookLogin from "react-facebook-login";
 
-const clientId =
+const googleId =
 	"88614967773-v3l790qd5fd8qlgvdhbcb7f8m7afehta.apps.googleusercontent.com";
+const fbId = "1117098038797471";
 const responseLogin = (response) => {
 	console.log(response);
 };
@@ -45,8 +46,7 @@ function Login() {
 					<div className="login__author">
 						<FacebookLogin
 							className="login-fb"
-							autoLoad={true}
-							// appId={}
+							appId={fbId}
 							fields="name,email,picture"
 							callback={responseLogin}
 							icon="fa-facebook"
@@ -55,7 +55,7 @@ function Login() {
 						<GoogleLogin
 							className="login-google"
 							autoComplete={true}
-							clientId={clientId}
+							clientId={googleId}
 							onSuccess={"Google: " + responseLogin}
 							onFailure={"Google: " + responseLogin}
 						/>
