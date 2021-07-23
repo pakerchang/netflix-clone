@@ -16,11 +16,10 @@ function App() {
 		<Router>
 			<div className="app">
 				<Switch>
-					<Link to="/login">
-						<Login />
-					</Link>
-
 					<Route path="/">
+						<Route path="/login">
+							<Login />
+						</Route>
 						<Header />
 						<Banner />
 						<MovieRow
