@@ -1,3 +1,10 @@
+.banner {
+	width: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .header {
 	position: fixed;
 	top: 0;
@@ -9,9 +16,9 @@
 	display: flex;
 	justify-content: space-between;
 
-    /* animation */
-    transition: all .3s;
-    transition-timing-function: ease-in;
+	/* animation */
+	transition: all 0.3s;
+	transition-timing-function: ease-in;
 }
 
 .header__black {

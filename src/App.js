@@ -8,6 +8,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
+	Link,
 } from "react-router-dom";
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
 		<Router>
 			<div className="app">
 				<Switch>
-					<Route path="/login">
+					<Link to="/login">
 						<Login />
-					</Route>
+					</Link>
 
 					<Route path="/">
 						<Header />
