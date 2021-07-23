@@ -10,6 +10,6 @@ type in ```http://localhost:3000/``` on website
 
 
 
-# [Demo](blog-pakerchang.tk/netfliex-clone)
+# [Demo](https://blog-pakerchang.tk/netflix-clone/#/)
 
 # [Video](https://www.youtube.com/watch?v=XtMThy8QKqU&feature=youtu.be&ab_channel=CleverProgrammer)
